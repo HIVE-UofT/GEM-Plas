@@ -59,7 +59,6 @@ for idx, file in enumerate(tqdm(files, desc="Processing clusters")):
 
     edge_index, edge_attr = [], []
 
-    # backbone 边
     for k in range(len(valid_cols) - 1):
         edge_index.append([k, k+1])
         edge_index.append([k+1, k])
