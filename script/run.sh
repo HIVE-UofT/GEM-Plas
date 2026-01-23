@@ -1,5 +1,4 @@
 #!/bin/bash
-# 用法：bash batch_blast.sh
 
 input="/root/representatives.fasta"
 db="/root/databases/uniref/uniref90_blast"
